@@ -208,7 +208,7 @@ app.post("/v1/messages", (req, res) => {
 							chatId: traceId,
 							traceId: `${traceId}|${msgid}|${new Date().toISOString()}`,
 							conversationTurnId: msgid,
-							selectedAIModel: "claude_3_opus",
+							selectedAiModel: "claude_3_opus",
 							selectedChatMode: "custom",
 							pastChatLength: userMessage.length,
 							queryTraceId: traceId,
